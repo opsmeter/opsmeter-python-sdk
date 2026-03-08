@@ -9,9 +9,6 @@ Integration examples: [opsmeter-integration-examples](https://github.com/opsmete
 Opsmeter site: [https://opsmeter.io](https://opsmeter.io)
 Official publisher identity: **opsmeter.io**.
 
-> Package name note: the official Python package is currently `opsmeter-sdk`.
-> If naming changes later, this README will be the source of truth.
-
 Use this SDK for **LLM cost tracking**, **OpenAI usage monitoring**, **Anthropic usage telemetry**, and **no-proxy AI observability** in Python.
 
 Provider/model names should come from: [https://opsmeter.io/docs/catalog](https://opsmeter.io/docs/catalog)
@@ -23,24 +20,6 @@ Current SDK provider support: **OpenAI** and **Anthropic** only.
 - Docs: [https://opsmeter.io/docs](https://opsmeter.io/docs)
 - Model catalog: [https://opsmeter.io/docs/catalog](https://opsmeter.io/docs/catalog)
 - Integration examples: [https://github.com/opsmeter-io/opsmeter-integration-examples](https://github.com/opsmeter-io/opsmeter-integration-examples)
-
-## Package naming migration (planned)
-
-- Current distribution: `opsmeter-sdk`
-- Target distribution: `opsmeter-io-sdk`
-- Goal: make `opsmeter.io` identity explicit on PyPI + docs.
-
-Planned rollout:
-1. Publish `opsmeter-io-sdk` with the same runtime API.
-2. Keep `opsmeter-sdk` as compatibility distribution for a transition window.
-3. Add migration notice in release notes and README.
-4. Remove old-name references from docs after transition completes.
-
-Import path stays the same during migration:
-
-```python
-import opsmeter_sdk as opsmeter
-```
 
 ## Model catalog (required)
 
