@@ -18,9 +18,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/opsmeter-io/opsmeter-python-sdk"
-Repository = "https://github.com/opsmeter-io/opsmeter-python-sdk"
-Issues = "https://github.com/opsmeter-io/opsmeter-python-sdk/issues"
+Homepage = "https://github.com/opsmeter-io/opsmeter.io-python-sdk"
+Repository = "https://github.com/opsmeter-io/opsmeter.io-python-sdk"
+Issues = "https://github.com/opsmeter-io/opsmeter.io-python-sdk/issues"
 
 [tool.setuptools]
 packages = ["opsmeter_sdk"]

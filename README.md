@@ -1,11 +1,11 @@
 # opsmeter-sdk (Official opsmeter.io SDK)
 
 [![PyPI version](https://img.shields.io/pypi/v/opsmeter-sdk)](https://pypi.org/project/opsmeter-sdk/)
-[![license](https://img.shields.io/github/license/opsmeter-io/opsmeter-python-sdk)](https://github.com/opsmeter-io/opsmeter-python-sdk/blob/main/LICENSE)
+[![license](https://img.shields.io/github/license/opsmeter-io/opsmeter.io-python-sdk)](https://github.com/opsmeter-io/opsmeter.io-python-sdk/blob/main/LICENSE)
 
 Python SDK preview for Opsmeter auto-instrumentation.
 PyPI package: [opsmeter-sdk](https://pypi.org/project/opsmeter-sdk/)
-Integration examples: [opsmeter-integration-examples](https://github.com/opsmeter-io/opsmeter-integration-examples)
+Integration examples: [opsmeter-integration-examples](https://github.com/opsmeter-io/opsmeter.io-integration-examples)
 Opsmeter site: [https://opsmeter.io](https://opsmeter.io)
 Official publisher identity: **opsmeter.io**.
 
@@ -19,7 +19,7 @@ Current SDK provider support: **OpenAI** and **Anthropic** only.
 - Product: [https://opsmeter.io](https://opsmeter.io)
 - Docs: [https://opsmeter.io/docs](https://opsmeter.io/docs)
 - Model catalog: [https://opsmeter.io/docs/catalog](https://opsmeter.io/docs/catalog)
-- Integration examples: [https://github.com/opsmeter-io/opsmeter-integration-examples](https://github.com/opsmeter-io/opsmeter-integration-examples)
+- Integration examples: [https://github.com/opsmeter-io/opsmeter.io-integration-examples](https://github.com/opsmeter-io/opsmeter.io-integration-examples)
 
 ## Model catalog (required)
 
