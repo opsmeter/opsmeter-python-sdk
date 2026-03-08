@@ -1,14 +1,55 @@
-# opsmeter-sdk (Preview)
+# opsmeter-sdk (Official opsmeter.io SDK)
+
+[![PyPI version](https://img.shields.io/pypi/v/opsmeter-sdk)](https://pypi.org/project/opsmeter-sdk/)
+[![license](https://img.shields.io/github/license/opsmeter-io/opsmeter-python-sdk)](https://github.com/opsmeter-io/opsmeter-python-sdk/blob/main/LICENSE)
 
 Python SDK preview for Opsmeter auto-instrumentation.
-Package publishing: coming soon
-Integration examples: [opsmeter-integration-examples](https://github.com/opsmeter/opsmeter-integration-examples)
+PyPI package: [opsmeter-sdk](https://pypi.org/project/opsmeter-sdk/)
+Integration examples: [opsmeter-integration-examples](https://github.com/opsmeter-io/opsmeter-integration-examples)
 Opsmeter site: [https://opsmeter.io](https://opsmeter.io)
+Official publisher identity: **opsmeter.io**.
+
+> Package name note: the official Python package is currently `opsmeter-sdk`.
+> If naming changes later, this README will be the source of truth.
 
 Use this SDK for **LLM cost tracking**, **OpenAI usage monitoring**, **Anthropic usage telemetry**, and **no-proxy AI observability** in Python.
 
 Provider/model names should come from: [https://opsmeter.io/docs/catalog](https://opsmeter.io/docs/catalog)
 Current SDK provider support: **OpenAI** and **Anthropic** only.
+
+## Quick links
+
+- Product: [https://opsmeter.io](https://opsmeter.io)
+- Docs: [https://opsmeter.io/docs](https://opsmeter.io/docs)
+- Model catalog: [https://opsmeter.io/docs/catalog](https://opsmeter.io/docs/catalog)
+- Integration examples: [https://github.com/opsmeter-io/opsmeter-integration-examples](https://github.com/opsmeter-io/opsmeter-integration-examples)
+
+## Package naming migration (planned)
+
+- Current distribution: `opsmeter-sdk`
+- Target distribution: `opsmeter-io-sdk`
+- Goal: make `opsmeter.io` identity explicit on PyPI + docs.
+
+Planned rollout:
+1. Publish `opsmeter-io-sdk` with the same runtime API.
+2. Keep `opsmeter-sdk` as compatibility distribution for a transition window.
+3. Add migration notice in release notes and README.
+4. Remove old-name references from docs after transition completes.
+
+Import path stays the same during migration:
+
+```python
+import opsmeter_sdk as opsmeter
+```
+
+## Model catalog (required)
+
+Always use provider/model pairs from the official catalog:
+[https://opsmeter.io/docs/catalog](https://opsmeter.io/docs/catalog)
+
+Examples:
+- OpenAI: `provider=openai`, `model=gpt-4o-mini`
+- Anthropic: `provider=anthropic`, `model=claude-3-5-sonnet-20241022`
 
 ## Install
 
